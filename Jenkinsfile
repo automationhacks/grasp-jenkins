@@ -4,6 +4,11 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                sh 'echo Woot woot! First Jenkins pipeline!'
+                sh ''' Okay and multi line
+                comments work as well
+                Dang!
+                '''
                 sh 'mvn --version'
             }
         }
