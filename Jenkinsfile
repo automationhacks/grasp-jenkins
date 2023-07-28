@@ -5,9 +5,9 @@ pipeline {
         stage('build') {
             steps {
                 sh 'echo Woot woot! First Jenkins pipeline!'
-                sh '''echo Okay and multi line
-                comments work as well
-                Dang!
+                sh '''echo Does multiline work?
+                ls -lrt
+                echo Yeah!
                 '''
                 sh 'mvn --version'
             }
