@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Added couple of more steps in the build stage">
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
-    </list>
+    <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Retry and timeout in Jenkins pipeline" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +58,28 @@
       <option name="project" value="LOCAL" />
       <updated>1690515261395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added couple of more steps in the build stage">
+      <created>1690515652817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690515652817</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Retry and timeout in Jenkins pipeline">
+      <created>1690516393141</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690516393141</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Retry and timeout in Jenkins pipeline">
+      <created>1690516914451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690516914451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added couple of more steps in the build stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added couple of more steps in the build stage" />
+    <MESSAGE value="Retry and timeout in Jenkins pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retry and timeout in Jenkins pipeline" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
