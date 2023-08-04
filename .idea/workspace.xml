@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Retry and timeout in Jenkins pipeline">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile_with_env_variables" afterDir="false" />
+    <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Updated README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile_with_env_variables" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile_with_env_variables" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690517074047</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated README.md">
+      <created>1690774258692</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690774258692</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,7 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added couple of more steps in the build stage" />
     <MESSAGE value="Retry and timeout in Jenkins pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Retry and timeout in Jenkins pipeline" />
+    <MESSAGE value="Updated README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>

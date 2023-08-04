@@ -1,14 +1,21 @@
 /* https://www.jenkins.io/doc/pipeline/tour/agents/*/
+
 pipeline {
     agent {
         docker {
             image 'node:18.16.0-alpine'
         }
     }
+    environment {
+        GREETING = 'Hello world'
+        USERNAME_PASSWORD = credentials('jenkins-a-vanilla-user-name-and-password')
+    }
     stages {
         stage('Test') {
             steps {
                 sh 'node --version'
+                echo "${GREETING} to the world of node and jenkins!"
+                echo "Don't do this in real world, but here is a username and password: ${USERNAME_PASSWORD}"
             }
         }
     }
