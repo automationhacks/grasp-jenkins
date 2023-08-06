@@ -15,7 +15,14 @@ pipeline {
             steps {
                 sh 'node --version'
                 echo "${GREETING} to the world of node and jenkins!"
-                echo "Don't do this in real world, but here is a username and password: ${USERNAME_PASSWORD}"
+
+                // Secure way of interpolating secrets (user name and password) in Jenkins
+                // The single-quotes will cause the secret to be expanded by the shell as an environment variable.
+                // The double-quotes are potentially less secure as the secret is interpolated by Groovy,
+                // and so typical operating system process listings will accidentally disclose it :
+                // https://www.jenkins.io/doc/book/pipeline/jenkinsfile/#handling-credentials
+
+                echo 'Don't do this in real world, but here is a username and password: ${USERNAME_PASSWORD}'
             }
         }
     }
