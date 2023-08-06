@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Updated README.md">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile_with_test_record_aggregration" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
