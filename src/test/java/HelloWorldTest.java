@@ -5,8 +5,16 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class HelloWorldTest {
     @Test
     public void aTest() {
-        // duh! 🤦‍♂️
+        // I always pass️ 😅
         assertTrue(true);
 
     }
+
+    @Test
+    public void aTestThatAlwaysFails() {
+        // duh! 🤦‍♂️
+        assertTrue(false);
+
+    }
+
 }
