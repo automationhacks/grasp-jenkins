@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb418a96-7644-41c4-b74b-6ceba80092c9" name="Changes" comment="Updated README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile_with_env_variables" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile_with_env_variables" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jenkinsfile_with_test_record_aggregration" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
