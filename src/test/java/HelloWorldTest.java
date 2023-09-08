@@ -1,6 +1,6 @@
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.testng.Assert.assertTrue;
 
 public class HelloWorldTest {
     @Test
@@ -14,7 +14,16 @@ public class HelloWorldTest {
     public void aTestThatAlwaysFails() {
         // duh! 🤦‍♂️
         assertTrue(false);
+    }
 
+    @Test(groups = "pick_me")
+    public void aTestThatShouldBeFiltered() {
+        assertTrue(true);
+    }
+
+    @Test(groups = "pick_me")
+    public void aTestThatShouldBeFilteredAndFails() {
+        assertTrue(false);
     }
 
 }
