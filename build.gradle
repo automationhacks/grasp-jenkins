@@ -16,3 +16,16 @@ dependencies {
 test {
     useTestNG()
 }
+
+tasks.withType(Test).configureEach {
+    systemProperties = [
+            tag: System.getProperty('tag', 'pick_me')
+    ]
+}
+
+tasks.register('runTests', Test) {
+    useTestNG() {
+        testLogging.showStandardStreams = true
+        includeGroups System.getProperty('tag', 'NONE')
+    }
+}

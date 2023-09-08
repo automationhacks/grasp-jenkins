@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Add a failing test and add notification when a test fails">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorldTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Use testNG as test runner and add few tests with gradle groups" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691338118939</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Use testNG as test runner and add few tests with gradle groups">
+      <created>1694140772086</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694140772086</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +187,8 @@
     <MESSAGE value="Let's add a test to make things interesting." />
     <MESSAGE value="Resolving merge conflicts" />
     <MESSAGE value="Add a failing test and add notification when a test fails" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a failing test and add notification when a test fails" />
+    <MESSAGE value="Use testNG as test runner and add few tests with gradle groups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use testNG as test runner and add few tests with gradle groups" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
