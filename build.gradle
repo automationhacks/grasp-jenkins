@@ -13,10 +13,6 @@ dependencies {
     testImplementation 'org.testng:testng:7.8.0'
 }
 
-test {
-    useTestNG()
-}
-
 tasks.withType(Test).configureEach {
     systemProperties = [
             tag: System.getProperty('tag', 'pick_me')
