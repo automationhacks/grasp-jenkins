@@ -17,7 +17,7 @@ public class HelloWorldTest {
     }
 
     @Test(groups = "pick_me")
-    public void aTestThatShouldBeFiltered() {
+    public void aTestThatShouldBeFilteredAndPasses() {
         assertTrue(true);
     }
 
