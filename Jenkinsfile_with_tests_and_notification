@@ -25,17 +25,17 @@ pipeline {
             deleteDir()
         }
         success {
-            echo 'Suceeded'
+            echo 'Succeeded'
         }
         unstable {
             echo 'I am unstable'
         }
         failure {
+            // TODO: Add some email plugin to test this feature out
             echo 'I failed'
             mail to: 'automationhacks@gmail.com',
                  subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                  body: "Something is wrong with ${env.BUILD_URL}"
-
         }
         changed {
             echo 'Things were different before'
