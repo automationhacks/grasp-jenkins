@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Update environment variable usage in sh block">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Updated Jenkinsfile_with_tests_and_notification">
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile_with_tests_and_notification" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile_with_tests_and_notification" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/gauravsingh/self/grasp-jenkins",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/gauravsingh/self/grasp-jenkins&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694141759115</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated Jenkinsfile_with_tests_and_notification">
+      <created>1694231117317</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694231117317</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +212,8 @@
     <MESSAGE value="Add a failing test and add notification when a test fails" />
     <MESSAGE value="Use testNG as test runner and add few tests with gradle groups" />
     <MESSAGE value="Removed test {} task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed test {} task" />
+    <MESSAGE value="Updated Jenkinsfile_with_tests_and_notification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Jenkinsfile_with_tests_and_notification" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>

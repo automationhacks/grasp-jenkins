@@ -1,9 +1,6 @@
 // https://www.jenkins.io/doc/pipeline/tour/post/
 pipeline {
     agent any
-    environment {
-        TAG = 'pick_me'
-    }
     stages {
         stage('Build') {
             steps {
@@ -12,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh './gradlew clean runTests -Dtag=${TAG}'
+                sh './gradlew clean runTests -Dtag=${groups}'
             }
         }
     }
