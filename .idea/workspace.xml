@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Updated Jenkinsfile_with_tests_and_notification">
+    <list default="true" id="5fd491a6-c491-490a-9d73-1a061f8bd4e3" name="Changes" comment="Changed a test methods name">
       <change beforePath="$PROJECT_DIR$/Jenkinsfile_with_tests_and_notification" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile_with_tests_and_notification" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
